@@ -9,4 +9,15 @@ inteiro=int(usado para numeros inteiros)
 string=str(usado para sequencia de caracteres, tipo um nome)
 float=float(usado para numero decimais como 20.5)
 list=list(usado para ter varias strings ex:"apple","banana","cherry")
-teste
+
+Variaveis não podem começar com numeros, nem com palavras de comando( como "print")
+
+SIMBOLOS DE CAUCULO
++ = adição
+- = subtração
+* = multiplicação
+/ = divisão
+** = potencia
+% = modulus
+// = floor division
+
