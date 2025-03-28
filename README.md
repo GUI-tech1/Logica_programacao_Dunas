@@ -21,3 +21,13 @@ SIMBOLOS DE CAUCULO
 % = modulus
 // = floor division
 
+SIMBOLOS DE COMPARAÇÃO
+== igual
+> maior que 
+< menor que
+<= menor ou igual que
+>= maior ou igual que 
+!= diferença(saber se um numero é diferente do outro)
+
+Fazer em casa, botar um print para cada uma das comparaçãoes
+estudar lif, if e else.
