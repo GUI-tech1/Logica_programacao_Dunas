@@ -1,14 +1,26 @@
-x=10
-y=10
 #igualdade
-print(x==y)
+#print(x==y)
+
 #Diferença
-print(x!=y)
+#print(x!=y)
+
 #Superioridade
-print(x>y)
+#print(x>y)
+
 #Inferioridade
-print(x<y)
+#print(x<y)
+
 #Maior ou igual
-print(x>=y)
+#print(x>=y)
+
 #Menor ou igual
-print(x<=y)
+#print(x<=y)
+
+x=int(input("x:"))
+y=int(input("y:"))
+if x==y:
+    print("X é igual a Y")
+elif x>y:
+    print("X é maior que Y")
+elif x<y:
+    print("X é menor que Y")

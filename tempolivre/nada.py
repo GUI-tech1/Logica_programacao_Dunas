@@ -9,4 +9,3 @@ if numero<10 and nome=="batatas":
     print("Você não tem batatas suficientes")
 if nome!="batatas":
     print("ERROR")
-
