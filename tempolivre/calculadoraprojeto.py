@@ -24,6 +24,6 @@ def cauculo():
     return rei
 while cauculo()!="n":
     cauculo()
-print("ACABOU")
+print("FINAL")
 
     
