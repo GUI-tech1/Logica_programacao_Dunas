@@ -16,8 +16,8 @@
 #Menor ou igual
 #print(x<=y)
 
-x=int(input("x:"))
-y=int(input("y:"))
+x=float(input("x:"))
+y=float(input("y:"))
 if x==y:
     print("X é igual a Y")
 elif x>y:
