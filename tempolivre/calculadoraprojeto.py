@@ -11,16 +11,18 @@ def cauculo():
     pot=numero1**numero2
     if op=="+":
         print(soma)
-    if op=="-":
+    elif op=="-":
         print(sub)
-    if op=="*":
+    elif op=="*":
         print(mult)
-    if op=="/":
+    elif op=="/":
         print(div)
-    if op=="**":
+    elif op=="**":
         print(pot)
-    if op=="//":
+    elif op=="//":
         print(rdiv)
+    else:
+        print("Operação não conhecida")
     return rei
 while cauculo()!="n":
     cauculo()

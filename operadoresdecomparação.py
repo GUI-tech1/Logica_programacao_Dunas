@@ -1,3 +1,4 @@
+#y=10
 #igualdade
 #print(x==y)
 
@@ -16,11 +17,11 @@
 #Menor ou igual
 #print(x<=y)
 
-x=float(input("x:"))
-y=float(input("y:"))
+x=float(input("X:"))
+y=float(input("Y:"))
 if x==y:
     print("X é igual a Y")
 elif x>y:
     print("X é maior que Y")
-elif x<y:
+else:
     print("X é menor que Y")
