@@ -28,5 +28,6 @@ list=list(usado para ter varias strings ex:"apple","banana","cherry")
 <= menor ou igual que
 >= maior ou igual que 
 != diferença(saber se um numero é diferente do outro)
-
+# Lista e Tuple
+A lista pode ser modificada, o Tuple é algo fixo que não pode ser modificado 
 
