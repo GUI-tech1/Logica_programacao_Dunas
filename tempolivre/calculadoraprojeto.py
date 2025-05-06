@@ -7,6 +7,8 @@ def cauculo():
     print("5. potenciação")
     print("6. divisão inteira")
     print("7. sair")
+    #obs: é bom botar a condição para encerar logo apos o input pq se não o programa 
+    #continua mesmo depois de selecionar que quer encerar
     op=int(input("operação:"))
     if op==7:
         exit()
