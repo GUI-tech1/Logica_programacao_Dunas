@@ -1,31 +1,38 @@
 def cauculo():
-    numero1=float(input("numero1:"))
-    numero2=float(input("numero2:"))
-    op=input("operação:")
-    rei=input("reiniciar?")
-    soma= numero1 + numero2
-    sub= numero1 - numero2
-    mult= numero1*numero2
-    div=numero1/numero2
-    rdiv=numero1//numero2
-    pot=numero1**numero2
-    if op=="+":
+    print("selecione a operação desejada:")
+    print("1. soma")
+    print("2. subtração")
+    print("3. multiplicação")
+    print("4. divisão")
+    print("5. potenciação")
+    print("6. divisão inteira")
+    print("7. sair")
+    op=int(input("operação:"))
+    if op==7:
+        exit()
+    A=float(input("digite o primeiro numero:"))
+    B=float(input("digite o segundo numero:"))
+    soma= A + B
+    sub= A - B
+    mult= A*B
+    div=A/B
+    rdiv=A//B
+    pot=A**B
+    if op=="1":
         print(soma)
-    elif op=="-":
+    elif op=="2":
         print(sub)
-    elif op=="*":
+    elif op=="3":
         print(mult)
-    elif op=="/":
+    elif op=="4":
         print(div)
-    elif op=="**":
+    elif op=="5":
         print(pot)
-    elif op=="//":
+    elif op=="6":
         print(rdiv)
     else:
         print("Operação não conhecida")
-    return rei
-while cauculo()!="n":
-    cauculo()
-print("FINAL")
+while True:
+    cauculo()     
 
     
